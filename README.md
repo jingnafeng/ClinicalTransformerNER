@@ -72,8 +72,8 @@ To use the selected models, you need to change ```--model_type bert``` and ```--
 ### Use customized models by HOBI NLP team
 - BERT_MIMIC: Download mimiciii_bert_10e_128b.zip, provided at the bottom of this page, decompress and put the folder under the running path, chagne the following parameters:
 ```shell script
-      --model_type albert \
-      --pretrained_model mimiciii-albert_10e_128b \
+      --model_type bert \
+      --pretrained_model mimiciii_bert_10e_128b \
 ```
 - ALBERT_MIMIC: Download the model file provided at the bottom of this page : mimiciii-albert_10e_128b.zip, decompress and put it under the running path, change the following parameters:
 ```shell script
